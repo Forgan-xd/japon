@@ -8,4 +8,13 @@ function botonredes(){
     document.getElementById("redessocialiticas").style.display="block",ScrollReveal().reveal("redessocialiticas")
 }
 
-
+function botonreferencias (){
+    document.getElementById("referencias").style.display="block"
+    document.getElementById("botonbases").style.display="none"
+    document.getElementById("Ocultar_Referencias").style.display="block"
+}
+function ocultar_referencias (){
+    document.getElementById("referencias").style.display="none"
+    document.getElementById("botonbases").style.display="block"
+    document.getElementById("Ocultar_Referencias").style.display="none"
+}

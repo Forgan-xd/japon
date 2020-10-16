@@ -7,6 +7,7 @@
 body{
     background-color: #DFDBE5;
     background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%238dc8dd' fill-opacity='0.4'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    position: absolute;
 }
     
 
@@ -19,7 +20,7 @@ body{
 .primeraimagen{
     width: 60%;
     padding: 2%;
-    max-width: 100%;
+    max-width: 160%;
 }
 
 .segundoparrafo{
@@ -48,9 +49,14 @@ body{
 }
 footer{
     align-items: center;
+
+}
+#redessocialiticas{
+    display: none;
+    min-height: 100%;
 }
 .redestelefono{
-    background-color: #73aeff;
+    background-color: tomato;
     border:black solid 1px;
     margin:40%;
     margin-bottom:0;
@@ -58,9 +64,46 @@ footer{
     text-decoration-color: white;
     cursor: pointer;
     color: black;
-    
-    
 }
-#redessocialiticas{
-    display: none;
+.bases{
+    background-color: tomato;
+    float: right;
+    margin:16.4%;
+    border:solid black 1.5px;
+    margin-left: 0;
+    margin-top:0;
+    position: absolute;
+    left:77%;
+    cursor: pointer;
+}
+
+
+.referenciasunu{
+  float: right;
+  float: top;
+  text-align: right;
+  border:black solid 2px;
+  margin:23%;
+  margin-top:0;
+  margin-bottom: 0;
+  margin-left: 0;
+  background-color: #c1eaea;
+  display: none;
+  font-size:14px;
+
+}
+#Ocultar_Referencias{
+    background-color: tomato;
+    float: right;
+    margin:16.4%;
+    border:solid black 1.5px;
+    margin-left: 0;
+    margin-top:0;
+    position: absolute;
+    left:77%;
+    cursor: pointer;
+    display:none
+}
+.titulo{
+    padding-top: 5%;
 }
