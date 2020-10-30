@@ -10,18 +10,24 @@
     <meta name="autor" content="Tafur">
     <meta name="keywords" content="japon,historia imperio japones">
 </head>
+ 
+ 
+<img id="menuco"class="menu" src="images/Menu.png" onclick="menu_desplegable()">
+<img id="ocultelo_parcero"class="Ocultar_menu" src="images/Menu.png" onclick="menu_ocultar()">
+<p id="botonbases"  onclick="botonreferencias()" class="bases">Referencias</p >
     <div id="referencias"class="referenciasunu">
         <a href="https://es.wikipedia.org/wiki/Historia_de_Jap%C3%B3n">origen</a>
         <a href="https://es.wikipedia.org/wiki/Jap%C3%B3n_durante_la_Segunda_Guerra_Mundial">Caida</a>
         <a href="https://es.wikipedia.org/wiki/Segunda_guerra_sino-japonesa">Caida2</a>
     </div>
     
-<body>
-    <p id="botonbases"  onclick="botonreferencias()" class="bases">Referencias</p >
+    <body>
+
+  
         <p onclick="ocultar_referencias()" id="Ocultar_Referencias">Ocultar</p>
-    <section class="general">
-        <section1 class="seccionprimera">
-           
+    <section class="general" id="todito">
+        <section1 id ="primera_seccion"class="seccionprimera">
+          
             <div class="primerparrafo">
                  <!-- TITULOS -->
                 <h1 class="titulo">Historia del imperio Japones</h1>
@@ -29,14 +35,26 @@
                  <!-- PRIMER PARRAFO -->
                 <p>Los primeros habitantes de japon llegaron hace aproximadamente 35.000 años atras.Entre los años 11.000 y 500, se desarrolo una cultura llamada Yayoi, que utilizaba herramientas de metal y cultivo de arroz, en japon habian varios cacigazgos que luchaban por el poder de la isla, y debido a esto la isla se mantenia en constantes conflictos, a diferencia del periodo Edo que se caracterizo por ser pacifico y por la desicion de cerrar las fronteras para evitar el contacto con el exterior. En 1868 se inicio la modernizacion del pais abandondando el feudalismo,la capital fue transladada a tokyo y se iniciaria un proceso de occidentalizacion. </p class="primerparrafo">
                 <img src="images/d14c3e09f63ab04d453efc32b96ba49a.gif "width="300px" class="primeraimagen">
+                <!--PREGUNTAS DESPLEGABLES LA PUTA MADRE-->
+                <div id="preguntocas"class="preguntas" z-index:100>
+                    <h1 class="titulos">¿De que trata esta pagina?</h1>
+                    <p class="parrafos">Esta pagina y otras que he creado yo, tratan sobre resumir un poco de la historia de algunos imperios, centrandome en el ascenso y la caida de estos imperios</p>
+                    <h1 class="titulos">¿Cual es el objetivo de esta pagina?</h1>
+                    <p class="parrafos">Mi objetivo es darle informacion resumida e interesante sobre imperios que fueron relevantes en la historia</p>
+                    <h1  class="titulos">¿De donde sacas la informacion?</h1>
+                    <p class="parrafos">Principalmente de wikipedia y otros sitios que dejo en el boton "referencias"</p>
+                </div>
             </div>
-            
         </section1>
-        <section2 class="seccion2">
-         
-           
+    <section2 id="abajo" class="seccion2">
+            <link rel="stylesheet" href="styles.css">
+        </div>
+       
+        </body>
+        </html>
+       
              
-            <div class="segundoparrafo">
+            <div id="parrafo_2" class="segundoparrafo">
                 <!-- TITULO -->
                 <h1>Caida del Imperio Japones</h1>
                 <!-- SEGUNDO PARRAFO -->
@@ -44,36 +62,33 @@
                 <img src="images/hiroshima-810x557.jpg" class ="imagen2">
             </div>
             
-        </section2>
+    </section2>
         <footer class="redes sociales" id="redessocialiticas">
             <a href="https://www.facebook.com/Tafu-102393798310936" target="_blank"><img alt="Siguenos en Facebook" src="https://lh3.googleusercontent.com/-NSLbC_ztNls/T6VX0g6z8AI/AAAAAAAAA0A/_vyIBrmZbuY/s48/facebook48.png" width=48 height=48 class="facebook" /></a>
             <a href="https://twitter.com/Tafu_empresario" target="_blank"><img src="https://lh6.googleusercontent.com/-vao9pzZoGtk/T6VYC4d1YMI/AAAAAAAAA0U/4rdP2chJido/s48/twitter48.png" width=48 height=48 alt="Síguenos en Twitter" /></a>
             <a href="https://www.instagram.com/tafu.empresario/?hl=es-la" target="_blank"><img alt="Siguenos en Blogger" src="https://lh3.googleusercontent.com/-D-erW-8vZFo/UIqE3H6oUuI/AAAAAAAABgE/4kh346Lwaxk/s48/instagram48.png" width=48 height=48  /></a>
 
         </footer>
+    </section>
     </footer>
     <div class="redestelefono">
         <p id="sigame" onclick="botonredes()">¡Sigueme! </p >
     </div>
+    <div id="dale">
     <p>🡩</p>
     <p>l</p>
     <p>Dale click</p>
-    
-    
-    </section>
-    
-        
+    </div>  
    
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="main.js"></script>
 
     
-</div>
+
    
-</body>
+    </body>
 
 
                 
-
-</html>
-
+   
+    </html>

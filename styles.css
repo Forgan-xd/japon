@@ -19,19 +19,23 @@ body{
 }
 .primeraimagen{
     width: 60%;
-    padding: 2%;
+    
     max-width: 160%;
+  
+  
 }
 
 .segundoparrafo{
     padding: 2%;
-    padding-top: 0;
+   
     
 }
 
 .imagen2{
     width: 60%;
-    padding: 2%;
+   
+    
+   
 }
 .general{
     border:black solid;
@@ -106,4 +110,54 @@ footer{
 }
 .titulo{
     padding-top: 5%;
+}
+
+.preguntas{
+    
+    display: flex;
+    width:40%;
+    margin:7%;
+    z-index:100;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: #b7e7d2;
+    position: absolute;
+    top:1px;
+    display: none;
+    
+    
+}
+
+
+.parrafos{
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 160%;
+   
+    
+}
+.titulos{
+    font-size: 240%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+.menu{
+    position: sticky;
+    float: right;
+    margin-top: 0%;
+    width:7%;
+    cursor: pointer;
+}
+.Ocultar_menu{
+    position: sticky;
+    float: right;
+    margin-top: 0%;
+    width:7%;
+    cursor: pointer;
+    display:none;
 }

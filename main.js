@@ -18,3 +18,16 @@ function ocultar_referencias (){
     document.getElementById("botonbases").style.display="block"
     document.getElementById("Ocultar_Referencias").style.display="none"
 }
+function menu_desplegable(){
+    document.getElementById("parrafo_2").style.display="none"
+    document.getElementById("preguntocas").style.display="block"
+    document.getElementById("botonbases").style.display="none"
+    document.getElementById("sigame").style.display="none"
+    document.getElementById("dale").style.display="none"
+    document.getElementById("menuco").style.display="none"
+    document.getElementById("ocultelo_parcero").style.display="block"
+}
+function menu_ocultar(){
+    document.getElementById("parrafo_2").style.display="block"
+    document.getElementById("preguntocas").style.display="none"
+}
