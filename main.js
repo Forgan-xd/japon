@@ -18,7 +18,7 @@ function ocultar_referencias (){
     document.getElementById("botonbases").style.display="block"
     document.getElementById("Ocultar_Referencias").style.display="none"
 }
-function menu_desplegable(){
+function Menucato(){
     document.getElementById("parrafo_2").style.display="none"
     document.getElementById("preguntocas").style.display="block"
     document.getElementById("botonbases").style.display="none"
@@ -30,4 +30,9 @@ function menu_desplegable(){
 function menu_ocultar(){
     document.getElementById("parrafo_2").style.display="block"
     document.getElementById("preguntocas").style.display="none"
+    document.getElementById("botonbases").style.display="block"
+    document.getElementById("sigame").style.display="block"
+    document.getElementById("dale").style.display="block"
+    document.getElementById("menuco").style.display="block"
+    document.getElementById("ocultelo_parcero").style.display="none"
 }
