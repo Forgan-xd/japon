@@ -70,8 +70,9 @@ footer{
     color: black;
 }
 .bases{
+    display: flex;
+    justify-content: right;
     background-color: tomato;
-    float: right;
     margin:16.4%;
     border:solid black 1.5px;
     margin-left: 0;
@@ -154,10 +155,36 @@ footer{
     cursor: pointer;
 }
 .Ocultar_menu{
-    position: sticky;
+    
     float: right;
     margin-top: 0%;
     width:7%;
     cursor: pointer;
     display:none;
 }
+@media (max-width: 600px) {
+    .menu {
+        float: left;
+    }
+    .Ocultar_menu{
+      
+        float: left;
+       
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .preguntas{
+        font-size: 77%;
+    } 
+  }
+  @media screen and (max-width: 600px) {
+    .preguntas{
+        font-size: 74%;
+    } 
+  }
+  @media screen and (max-width: 300px) {
+    .preguntas{
+        font-size: 70%;
+    } 
+  }
+ 
